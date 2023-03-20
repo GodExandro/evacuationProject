@@ -1,0 +1,32 @@
+name: evacuation_project
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_code_scanner: ^1.0.1
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.3.0
+  cloud_firestore: ^4.1.0
+  firebase_analytics: ^10.0.6
+  get_it: ^7.2.0
+  firebase_auth: ^4.2.10
+  list_treeview: ^0.3.1
+  flutter_tree: ^2.0.3
+  flutter_secure_storage: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  json_serializable: ^6.6.1
+  build_runner: ^2.0.0
+
+flutter:
+  uses-material-design: true
